@@ -1,0 +1,33 @@
+.content_nav_bx,
+.nav-glass, .nav-block {
+  transition: all 1s ease;
+  border-radius: 1rem;
+}
+ 
+.content_nav_bx {
+  background: transparent;
+}
+
+.nav-glass {
+  -webkit-backdrop-filter: blur(5px) saturate(180%);
+  backdrop-filter: blur(5px) saturate(180%);
+  background: var(--cap-glass);
+}
+
+.navbar .navbar-bar__link {
+  font-size: clamp(0.6rem, .8vw, 1rem);
+}
+
+.navbar .navbar__logo {
+  font-size: clamp(0.6rem, 1vw, 1rem);
+}
+
+.navbar .navbar-toggler {
+  --bs-navbar-toggler-padding-x: 0.5rem;
+  --bs-navbar-toggler-padding-y: 0.5rem;
+  border: 0.05rem solid rgb(177, 177, 177);
+}
+
+.navbar__logo svg {
+  width: clamp(5rem, 7.5vw, 7.5rem);
+}
